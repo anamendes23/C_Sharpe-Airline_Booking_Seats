@@ -1,0 +1,10 @@
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\Final_Review\bin\Debug\Final_Review.exe.config
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\Final_Review\bin\Debug\Final_Review.exe
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\Final_Review\bin\Debug\Final_Review.pdb
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\Final_Review\obj\Debug\Final_Review.csprojResolveAssemblyReference.cache
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\Final_Review\obj\Debug\Final_Review.Form1.resources
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\Final_Review\obj\Debug\Final_Review.Properties.Resources.resources
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\Final_Review\obj\Debug\Final_Review.csproj.GenerateResource.Cache
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\Final_Review\obj\Debug\Final_Review.csproj.CoreCompileInputs.cache
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\Final_Review\obj\Debug\Final_Review.exe
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\Final_Review\obj\Debug\Final_Review.pdb
