@@ -27,7 +27,7 @@ namespace Final_Review
             return index;
         }
         //3. Crazy method
-        public void Lala(out int value, out int index, int[] array)
+        public void Lala(int[] array, out int value, out int index)
         {
             index = LargestIndex(array);
             value = array[index];            
@@ -65,7 +65,7 @@ namespace Final_Review
         {
             int index;
             int value;
-            Lala(out value, out index, array);
+            Lala(array, out value, out index);
             textBox1.Text = value +" " + index;
             Display(array);
         }

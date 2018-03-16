@@ -1,0 +1,10 @@
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\cellphone\bin\Debug\cellphone.exe.config
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\cellphone\bin\Debug\cellphone.exe
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\cellphone\bin\Debug\cellphone.pdb
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\cellphone\obj\Debug\cellphone.csprojResolveAssemblyReference.cache
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\cellphone\obj\Debug\cellphone.Form1.resources
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\cellphone\obj\Debug\cellphone.Properties.Resources.resources
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\cellphone\obj\Debug\cellphone.csproj.GenerateResource.Cache
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\cellphone\obj\Debug\cellphone.csproj.CoreCompileInputs.cache
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\cellphone\obj\Debug\cellphone.exe
+C:\Users\ana_c\Documents\RTC\2 quarter\CSI 154 Intro to visual c\Assignments\Final_Review\cellphone\obj\Debug\cellphone.pdb
