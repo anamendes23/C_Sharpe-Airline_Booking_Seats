@@ -13,7 +13,7 @@ namespace Airline
         private bool _leftSideAisleSeat;
         private bool _rightSideWindowSeat;
         private bool _rightSideAisleSeat;
-        //constructors
+        //constructor
         public Row()
         {
             _leftSideWindowSeat = false; //'A'
@@ -42,8 +42,5 @@ namespace Airline
             get { return _rightSideAisleSeat; }
             set { _rightSideAisleSeat = value; }
         }
-        //methods
-        
-
     }
 }

@@ -12,8 +12,7 @@ namespace Airline
 {
     public partial class List : Form
     {
-        //create row to get values from Form1
-        Row row = new Row();
+        //global index for row
         private static int indexR = 0;
         public List()
         {
@@ -27,31 +26,24 @@ namespace Airline
             {
                 cboRows.Items.Add(i+1);
             }
+            //populate combobox with Seats
+            foreach (char seat in Form1.letters)
+            {
+                cboSeats.Items.Add(seat);
+            }
+            //disable cboSeats
+            cboSeats.Enabled = false;
         }
         //**************************CBO ROWS************************************
         private void cboRows_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //when item in combobox is select, populate seat combobox
-            //with available seats
-
-            //clear cboSeats
-            cboSeats.Items.Clear();
+            //when row is select, enable seat combobox
+            //clear last selected item in cboSeats
             cboSeats.Text = String.Empty;
             //get index from cboRows
             indexR = cboRows.SelectedIndex;
-            //reference new Row object from Form1
-            row = Form1.rows[indexR];
-            //if structure to populate cboSeats
-            if (row.RightSideWindowSeat == false)
-            { cboSeats.Items.Add('A'); }
-            if (row.RightSideAisleSeat == false)
-            { cboSeats.Items.Add('B'); }
-            if (row.LeftSideAisleSeat == false)
-            { cboSeats.Items.Add('C'); }
-            if (row.LeftSideWindowSeat == false)
-            { cboSeats.Items.Add('D'); }
-            if (cboSeats.Items.Count == 0)
-            { MessageBox.Show("This row doesn't have any more seats available."); }
+            //enable cboSeats
+            cboSeats.Enabled = true;
         }
         //**************************BTN BOOKING*********************************
         private void btnBook_Click(object sender, EventArgs e)
@@ -63,24 +55,24 @@ namespace Airline
                 int indexS = cboSeats.SelectedIndex;
                 //condition to update seat availability
                 if (indexS == 0)
-                { row.RightSideWindowSeat = true; }
+                { Form1.rows[indexR].RightSideWindowSeat = true; }
                 else if (indexS == 1)
-                { row.RightSideAisleSeat = true; }
+                { Form1.rows[indexR].RightSideAisleSeat = true; }
                 else if (indexS == 2)
-                { row.LeftSideAisleSeat = true; }
+                { Form1.rows[indexR].LeftSideAisleSeat = true; }
                 else
-                { row.LeftSideWindowSeat = true; }
+                { Form1.rows[indexR].LeftSideWindowSeat = true; }
                 //update button from Form1
                 Form1.buttons[indexR, indexS].BackColor = Color.Red;
                 Form1.buttons[indexR, indexS].Enabled = false;
                 //clear text from cboSeats to force update
-                cboSeats.Items.Clear();
                 cboSeats.Text = String.Empty;
+                cboSeats.Enabled = false;
                 //clear text from combobox to force user to select another
                 //row number and initialize the click event
                 cboRows.Text = String.Empty;
                 //display confirmation message
-                MessageBox.Show("Your seats were booked!");
+                MessageBox.Show("Your seat was booked!");
             }
             else
             { MessageBox.Show("Select a seat to book."); }
