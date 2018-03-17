@@ -49,7 +49,7 @@
             this.cboSeats.FormattingEnabled = true;
             this.cboSeats.Location = new System.Drawing.Point(208, 61);
             this.cboSeats.Name = "cboSeats";
-            this.cboSeats.Size = new System.Drawing.Size(121, 28);
+            this.cboSeats.Size = new System.Drawing.Size(205, 28);
             this.cboSeats.TabIndex = 1;
             // 
             // label1
@@ -74,7 +74,7 @@
             // 
             this.btnBook.Location = new System.Drawing.Point(40, 133);
             this.btnBook.Name = "btnBook";
-            this.btnBook.Size = new System.Drawing.Size(289, 36);
+            this.btnBook.Size = new System.Drawing.Size(373, 36);
             this.btnBook.TabIndex = 4;
             this.btnBook.Text = "Complete Booking";
             this.btnBook.UseVisualStyleBackColor = true;
@@ -84,7 +84,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(369, 210);
+            this.ClientSize = new System.Drawing.Size(450, 210);
             this.Controls.Add(this.btnBook);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
